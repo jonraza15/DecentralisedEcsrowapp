@@ -1,0 +1,130 @@
+:root {
+    --primary-color: #99d1ff;
+    --secondary-color: #759fc2;
+    --tertiary-color: #4d687e;
+    --primary-font-color: #272727;
+    --secondary-font-color: #e6e6e6;
+    --tertiary-font-color: #ffffff;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    position: sticky;
+    top: 0;
+}
+
+.brand {
+    font-size: large;
+    font-weight: bold;
+}
+.brand-sub {
+    color: var(--tertiary-font-color);
+    display: inline;
+    font-size: large;
+    font-weight: bold;
+}
+
+.account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+}
+
+.address {
+    font-size: medium;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+.balance {
+    background-color: var(--tertiary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: var(--secondary-font-color);
+    font-weight: bold;
+}
+
+.app-body{
+    display: flex;
+    flex-wrap: wrap;
+    width: inherit;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.walletIcon{
+    width: 1rem;
+    height: 1rem;
+}
+
+.Wallets{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.ConnectWallet{
+    cursor: pointer;
+}
+
+.disconnect{
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.error-message{
+    color: rgb(179, 44, 44);
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+}
+
+.instance-search{
+    width: 2rem;
+    background-color: transparent;
+    border: none;
+}
+
+.instance-search:hover{
+    scale: 1.1;
+}
+
+.history-list{
+    text-align: center;
+}
+
+.copy-button{
+    cursor: pointer;
+}
+
+.copy-button:hover{
+    scale: 1.1;
+}
+
+.instance-list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+}
